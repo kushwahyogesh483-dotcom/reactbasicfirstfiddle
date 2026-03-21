@@ -1,0 +1,87 @@
+.weblogo{
+  width: 65px;
+}
+.navbar{
+    background: #00000082!important;
+}
+.navbar ul li{
+    padding: 0 10px;
+}
+.navbar ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.a {
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 3px;
+}
+.b {
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    text-align: justify;
+}
+.img123{
+  width: 80%;
+}
+@media(max-width:768px){
+.img123{
+    width: 100%;
+    margin-top: 20px;
+}
+}
+.c{
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+}
+.d{
+    line-height: 40px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+.e{
+    text-align: center;
+    background: black;
+    padding-top: 100px;
+    color: white;
+    margin-top: 20px;
+}
+.c2 {
+    background-image: url(https://pn-paul.netlify.app/image/gamebanner.jpg);
+    width: 100%;
+    color: white;
+    padding-top: 100px;
+    margin-top: 20px;
+}
+.our {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: prague;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.f{
+    line-height: 40px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    margin-top: 20px;
+    font-weight: lighter;
+    padding-bottom: 2cm;
+}
+footer{
+    background: #000000;
+    padding: 50px;
+    color: #fff;
+}
+
