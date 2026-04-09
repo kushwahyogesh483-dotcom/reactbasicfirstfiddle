@@ -3,48 +3,57 @@ import React from 'react'
 function Footer() {
   return (
     <>
-      <footer>
+      <footer className="footer">
         <div className='container-fluid'>
-          <div className='row'>
-            <div className='col-md-5'>
-              <img src="https://pn-paul.netlify.app/image/ff-logo-02.png" alt="" className='w-50%' />
+          <div className='row align-items-center'>
+
+            {/* Logo */}
+            <div className='col-12 col-md-5 text-center text-md-start mb-4 mb-md-0'>
+              <img
+                src="https://pn-paul.netlify.app/image/ff-logo-02.png"
+                alt="logo"
+                className='img-fluid footer-logo'
+              />
             </div>
-            <div className='col-md-7'>
-              <h2> <b style={{ color: "orange" }}>CONTACT</b> US</h2>
-              <p>We're a team focusing on redefining the way the hospitality industry works by bringing in concept based restaurants across India. We are truly committed to catering to the ever-changing cosmopolitan taste of the customer and revolutioning the F & B industry!</p>
-              <div className='row'>
-                <div className='col-md-6'>
-                  <h2>Address</h2>
+
+            {/* Content */}
+            <div className='col-12 col-md-7 text-center text-md-start'>
+              <h2>
+                <b style={{ color: "orange" }}>CONTACT</b> US
+              </h2>
+
+              <p className='footer-text'>
+                We're a team focusing on redefining the way the hospitality industry works by bringing in concept based restaurants across India.
+              </p>
+
+              <div className='row text-center text-md-start'>
+
+                <div className='col-12 col-md-6 mb-3'>
+                  <h5>Address</h5>
                   <p>
-                    S-357 2nd floor, Block S, Panchsheel Park South, Panchsheel Park, New Delhi, Delhi 110017
+                    S-357 2nd floor, Panchsheel Park South, New Delhi
                   </p>
                 </div>
-                <div className='col-md-6'>
-                  <h2>Enquiry</h2>
+
+                <div className='col-12 col-md-6'>
+                  <h5>Enquiry</h5>
                   <p>Email: customercare@firstfiddle.in</p>
                 </div>
+
               </div>
-              {/* row end */}
             </div>
 
           </div>
-          {/* row end */}
         </div>
-        {/* container-fluid end */}
       </footer>
 
-      <div className='container-fluid' style={{backgroundColor:"black"}}>
-        <div className='row'>
-          <div className='col-md-3'></div>
-          <div className='col-md-6 text-light'>
-            <p className='mt-3' style={{fontWeight:"250"}}>
-              EMPLOYEE POLICIES |PRIVACY POLICY |TERMS AND CONDITIONS | BLOG | APP</p>
-          </div>
-
-        </div>
-        {/* row end */}
+      {/* Bottom Bar */}
+      <div className='footer-bottom text-center text-light'>
+        <p>
+          EMPLOYEE POLICIES | PRIVACY POLICY | TERMS | BLOG | APP
+        </p>
       </div>
-      {/* container-fluid end */}
+
     </>
   )
 }

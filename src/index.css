@@ -198,11 +198,11 @@
     background-size: cover;
 }
 
-footer {
+/* footer {
     background: #000000;
     padding: 50px;
     color: #fff;
-}
+} */
 /* OURTEAM PAGE */
 .ccccc {
     background-image: url(https://pn-paul.netlify.app/image/new-our-team.jpg);
@@ -245,4 +245,39 @@ footer {
     height: 8.8cm;
     background-position: center;
     background-size: cover;
+}
+.footer {
+  background: #000;
+  padding: 40px 20px;
+  color: #fff;
+}
+
+.footer-logo {
+  max-width: 200px;
+}
+
+.footer-text {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-bottom {
+  background: #000;
+  padding: 15px;
+  font-size: 12px;
+}
+
+/* Mobile tweaks */
+@media (max-width: 768px) {
+  .footer h2 {
+    font-size: 20px;
+  }
+
+  .footer p {
+    font-size: 13px;
+  }
+
+  .footer-logo {
+    max-width: 150px;
+  }
 }
