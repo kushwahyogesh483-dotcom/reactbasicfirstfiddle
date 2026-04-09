@@ -3,10 +3,25 @@ import React from 'react'
 function Home() {
     return (
         <>
-            <div>
-                <img src="https://pn-paul.netlify.app/image/slider22.jpg" alt="" className='w-100' />
-            </div>
+            {/* slider start */}
+            <div className='carousel slide' data-bs-ride='carousel' id='ab'>
+                <div className='carousel-inner'>
+                    <div className='carousel-item active' data-bs-interval='3000' >
+                        <img src="https://pn-paul.netlify.app/image/slidwr33.jpg" alt="" className='w-100' />
+                    </div>
+                    <div className='carousel-item' data-bs-interval='3000'>
+                        <img src="https://pn-paul.netlify.app/image/slider22.jpg" alt="" className='w-100' />
 
+                    </div>
+
+                </div>
+                <div className='carousel-indicators'>
+                    <button type='button' data-bs-target='#ab' data-bs-slide-to='0' className='active'></button>
+                    <button type='button' data-bs-target='#ab' data-bs-slide-to='1'></button>
+                </div>
+
+            </div>
+            {/* slider end */}
             <div className='container'>
                 <h2 className='a'>Welcome To <b style={{ color: 'orange' }}>FIRST FIDDLE</b></h2>
                 <br />

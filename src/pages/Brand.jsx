@@ -3,8 +3,15 @@ import React from 'react'
 function Brand() {
   return (
     <>
-      <div>
-        <img src="https://pn-paul.netlify.app/image/brands.jpg" alt="" className='w-100' />
+       <div className='container-fluid cccc'>
+        <div className='row'>
+          <div className='col-md-2'></div>
+          <div className='col-md-8 text-white' style={{ paddingTop: '140px' }}>
+            <h1 className='text-center' style={{ fontSize: '1.5cm', marginTop: '4cm', fontFamily: 'prague' }}>BRAND</h1>
+          </div>
+          <div className='col-md-2'></div>
+        </div>
+        {/* row end */}
       </div>
       <br />
       <div className='container'>

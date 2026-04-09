@@ -4,10 +4,17 @@ import React from 'react'
 function About() {
   return (
     <>
-      <div>
-        <img src="https://pn-paul.netlify.app/image/ourimage.jpg" alt="" className='w-100' />
+      <div className='container-fluid ccc'>
+        <div className='row'>
+          <div className='col-md-2'></div>
+          <div className='col-md-8 text-white' style={{ paddingTop: '140px' }}>
+            <h1 className='text-center' style={{ fontSize: '1.5cm', marginTop: '4cm', fontFamily: 'prague' }}>OUR STORY</h1>
+          </div>
+          <div className='col-md-2'></div>
+        </div>
+        {/* row end */}
       </div>
-
+      {/* container-fluid end */}
       <div className='container'>
         <h2 className='a'>ONCE UPON <b style={{ color: 'orange' }}>AN AFFAIRE</b></h2>
         <br />

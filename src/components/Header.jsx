@@ -9,17 +9,23 @@ function Header() {
                 <div className='container-fluid'>
                     <a href="">
                         <img src="https://pn-paul.netlify.app/image/ff-logo-02.png" alt="" className='weblogo' />
-                    </a>
 
-                    <div>
-                        <ul className='navbar-nav'>
-                            <li><Link to="/" className='nav-link'>Home</Link></li>
-                            <li><Link to="/about" className='nav-link'>About</Link></li>
-                            <li><Link to="/brand" className='nav-link'>Brand</Link></li>
-                            <li><Link to="/ourteam" className='nav-link'>OurTeam</Link></li>
-                            <li><Link to="/" className='nav-link'>PrssRelease</Link></li>
-                            <li><Link to="/" className='nav-link'>Contact</Link></li>
-                            <li><Link to="/" className='nav-link'>Carrer</Link></li>
+                        <img src="https://pn-paul.netlify.app/image/logo-for-mobile.png" alt="" className='moblogo' />
+                    </a>
+                    {/* mobile menu */}
+                    <button className='navbar-toggler' data-bs-target='#a' data-bs-toggle='collapse' >
+                        <span className='navbar-toggler-icon'></span>
+                    </button>
+
+                    <div className='collapse navbar-collapse' id='a'>
+                        <ul className='navbar-nav ms-auto'>
+                            <li className='nav-item'><Link to="/" className='nav-link'>Home</Link></li>
+                            <li className='nav-item'><Link to="/about" className='nav-link'>About</Link></li>
+                            <li className='nav-item'><Link to="/brand" className='nav-link'>Brand</Link></li>
+                            <li className='nav-item'><Link to="/ourteam" className='nav-link'>OurTeam</Link></li>
+                            <li className='nav-item'><Link to="/pressrelease" className='nav-link'>PrssRelease</Link></li>
+                            <li className='nav-item'><Link to="/contact" className='nav-link'>Contact</Link></li>
+                            <li className='nav-item'><Link to="/carrer" className='nav-link'>Carrers</Link></li>
                         </ul>
                     </div>
 
